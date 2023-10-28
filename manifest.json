@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "AutoTabCloser",
+  "version": "1.0",
+  "description": "Close tabs after a certain period of time.",
+  "permissions": ["tabs", "activeTab"],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
